@@ -1,0 +1,263 @@
+@-moz-document domain("piazza.com") {
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+	* {
+		font-family: "Open Sans" !important;
+	}
+
+	#qaContentViewId > footer > div {
+		background-color: white;
+	}
+
+	body {
+		color: #222;
+	}
+
+	.main-content,
+	body .render-html-content p {
+		color: #222;
+		font-size: 15px;
+	}
+
+	.main-content .questions-and-answers #qanda-content article footer {
+		background: #ffffff;
+	}
+
+	.main-content .questions-and-answers #qanda-content {
+		padding: 0 !important;
+	}
+
+	.main-content .questions-and-answers #qanda-content #qaContentViewId {
+		border: 0;
+		margin: 0;
+	}
+
+	.main-content .questions-and-answers #qanda-content article {
+		border-radius: 0;
+	}
+
+	h1 {
+		font-size: 180%;
+		margin: 20px 0;
+	}
+
+	#post-header {
+		display: none;
+	}
+
+	#feed_search_bar {
+		background: #ffffff !important;
+	}
+
+	.gray-bar {
+		background-color: #ffffff;
+	}
+
+	#actionBar {
+		background-color: #ffffff !important;
+	}
+
+	.answer {
+		border: 0 !important;
+	}
+
+	#react_feed {
+		border-right-color: #dddddd;
+	}
+
+	#actionBar {
+		border-bottom-color: #dddddd !important;
+	}
+
+	.feed_item {
+		padding: 12px 0 8px 0;
+		margin: 0 5px;
+		border-bottom: 1px solid #dddddd !important;
+	}
+
+	.container,
+	.container-fluid,
+	.container-xl,
+	.container-lg,
+	.container-md,
+	.container-sm {
+		padding-left: 30px !important;
+	}
+
+	#react_root > div.main-content.overflow-hidden.container-fluid {
+		padding-left: 10px !important;
+	}
+
+	.invisible {
+		display: none !important;
+	}
+
+	#react_feed #feed_list_wrapper #feed_list ul li.feed_item .content .snippet {
+		padding-top: 11px;
+		font-size: 12px;
+		overflow: hidden;
+		text-overflow: ellipsis !important;
+	}
+
+	#react_feed #feed_list_wrapper #feed_list ul li.feed_item.selected {
+		background: #edf4ff;
+		border-radius: 8px;
+		padding: 15px 0px;
+	}
+
+	#react_feed #feed_list_wrapper #feed_list ul {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.main-content .questions-and-answers #qanda-content article .content .followup {
+		background: #ffffff;
+	}
+
+
+	.main-content .questions-and-answers #qanda-content article .content .followup .followup_reply {
+		background: #ffffff;
+	}
+
+	.avatar {
+		border-radius: 9999px !important;
+	}
+
+	#react_root .student_contribution_badge {
+		padding-top: 4px;
+		padding-left: 2px
+	}
+
+	code {
+		background: #f5f5f5;
+		font-size: 15px;
+	}
+
+	pre {
+		font-size: 15px;
+	}
+
+	#react_feed #feed_list_wrapper #feed_list ul li.feed_item .content .title .title_text {
+		font-weight: normal;
+		font-size: 14px
+	}
+
+	#topbar_current_class_number {
+		font-size: 20px;
+		padding-left: 1rem;
+		font-weight: 500;
+	}
+
+	#react_root #folder_row .folder_button.btn {
+		font-size: 15px !important;
+	}
+
+
+	#qaContentViewId > footer > div > div.text-left.align-self-center.py-0.col-auto > button.mr-2.btn.btn-primary.btn-sm {
+		background: #fcfcfc !important;
+		color: #555555 !important;
+		border: 1px solid #d0d0d0;
+		box-sizing: border-box;
+		position: relative;
+		text-align: center;
+		padding: 8px 12px;
+		font-size: 1rem;
+		line-height: 1em;
+		font-weight: 600;
+		border-radius: 4px;
+		height: auto;
+
+		margin: 10px 10px 10px 0px;
+	}
+
+	#qaContentViewId > footer > div > div.text-left.align-self-center.py-0.col-auto > button.text-notrans.btn.btn-link,
+	#main-post > footer > div > div > button:nth-child(2),
+	#main-post > footer > div > div > button:nth-child(3) {
+		background: #fcfcfc !important;
+		color: #555555 !important;
+		border: 1px solid #d0d0d0;
+		box-sizing: border-box;
+		position: relative;
+		text-align: center;
+		padding: 8px 12px;
+		font-size: 1rem;
+		line-height: 1em;
+		font-weight: 600;
+		border-radius: 4px;
+		height: auto;
+		text-transform: capitalize;
+
+		margin: 10px 10px 10px 0px;
+	}
+
+	#qaContentViewId > footer > div > div.text-left.align-self-center.py-0.col-auto > div {
+		padding-left: 0.5rem;
+	}
+
+	.form-control {
+		font-size: 15px;
+	}
+
+	#react_root .folder_selector .folder_button {
+		background-color: #eaf3ff;
+		font-size: 15px;
+	}
+
+	article {
+		padding: 1rem 0rem 0rem 0rem;
+	}
+
+	.folder_badge {
+		background: #ffffff !important;
+		color: #555555 !important;
+	}
+
+	.folder_list_item > button {
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+
+	#postSubmitBtnId {
+		padding: 8px 12px !important;
+	}
+
+	#new_post_button,
+	#postSubmitBtnId {
+		background: #096ff4 !important;
+		color: #fcfcfc !important;
+		border: 1px solid #d0d0d0;
+		box-sizing: border-box;
+		position: relative;
+		text-align: center;
+		padding: 8px 8px;
+		font-size: 1rem;
+		line-height: 1em;
+		font-weight: 600;
+		border-radius: 4px;
+		height: auto;
+		text-transform: capitalize;
+
+		margin: 10px 10px 10px 10px;
+	}
+
+	#search_bar {
+		margin: 10px 10px 10px 10px;
+		padding: 0px 0px 0px 4px;
+
+		box-sizing: border-box;
+	}
+
+
+	#feed_search_bar {
+		flex-direction: column;
+	}
+
+	#search-box {
+		padding: 12px 12px;
+	}
+
+	::placeholder {
+		color: #757575 !important;
+	}
+}
