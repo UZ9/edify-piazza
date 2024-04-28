@@ -124,6 +124,7 @@
 	}
 
 	#react_root .student_contribution_badge {
+		/*         filter: invert(20%) sepia(89%) saturate(1530%) hue-rotate(246deg) brightness(81%) contrast(100%) !important; */
 		padding-top: 4px;
 		padding-left: 2px
 	}
@@ -259,5 +260,9 @@
 
 	::placeholder {
 		color: #757575 !important;
+	}
+	
+	mjx-container, mjx-math, mjx-mo, mjx-mi, mjx-texatom, mjx-mo, mjx-c {
+		font-family: MJXZERO, MJXTEX !important;
 	}
 }
